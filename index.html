@@ -1,0 +1,1625 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="grid.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="./font/fontawesome/css/all.min.css">
+    <title>Nettrom_clone</title>
+</head>
+<body>
+    <div id="app">
+        <div class="header">
+            <div class="header-in grid wide">
+                <a href="#" class="logo">
+                    <img src="./img,icon/logo-nettruyen.png" alt="Nettruyen" class="logoimg">
+                </a>
+                <label class="header-search">
+                    <input type="text" class="input-search" placeholder="Tìm truyện...">
+                    <i class="icon-search fa-solid fa-magnifying-glass"></i>
+                </label>
+                <div class="iconcontrol">
+                    <i class="iconden fa-regular fa-lightbulb"></i>
+                    <i class="iconcomment fa-solid fa-comment"></i>
+                </div>
+                <div class="log-sign">
+                    <a href="#" class="log-in">Đăng nhập</a>
+                    /<a href="#" class="sign-in">Đăng ký</a>
+                </div>
+            </div>
+        </div>
+        <div class="nav">
+            <ul class="nav-list grid wide">
+                <li class="home"><a href="#"><i class="fa-solid fa-house-chimney"></i></a></li>
+                <li><a href="">Hot</a></li>
+                <li><a href="">Theo dõi</a></li>
+                <li><a href="">Lịch sử</a></li>
+                <li class="genre">
+                    <span href="">
+                        Thể loại <i class="fa-solid fa-caret-down"></i>
+                    </span>
+                    <div class="genre-container">
+                        <div class="genre-row">
+                            <div class="genre-list l-3">
+                                <a class="strong" href="">Tất cả</a>
+                                <a href="">Action</a>
+                                <a href="">Adult</a>
+                                <a href="">Adventure</a>
+                                <a href="">Anime</a>
+                                <a href="">Chuyển Sinh</a>
+                                <a href="">Comedy</a>
+                                <a href="">Comic</a>
+                                <a href="">Cooking</a>
+                                <a class="strong" href="">Cổ Đại</a>
+                                <a href="">Doujinshi</a>
+                                <a href="">Drama</a>
+                                <a href="">Đam Mỹ</a>  
+                            </div>
+                            <div class="genre-list l-3">
+                                <a href="">Ecchi</a>
+                                <a href="">Fantasy</a>
+                                <a href="">Ngôn Tình</a>
+                                <a href="">Harem</a>
+                                <a href="">Historycal</a>
+                                <a href="">Horror</a>
+                                <a href="">Josei</a>
+                                <a href="">Live action</a>
+                                <a href="">Manga</a>
+                                <a class="strong" href="">Manhua</a>
+                                <a href="">Manhwa</a>
+                                <a href="">Martial Arts</a>
+                                <a href="">Mature</a>  
+                            </div>
+                            <div class="genre-list l-3">
+                                <a href="">Ecchi</a>
+                                <a href="">Fantasy</a>
+                                <a class="strong" href="">Xuyên Không</a>
+                                <a href="">Harem</a>
+                                <a href="">Historycal</a>
+                                <a href="">Horror</a>
+                                <a href="">Josei</a>
+                                <a href="">Live action</a>
+                                <a href="">Manga</a>
+                                <a href="">Manhua</a>
+                                <a href="">Manhwa</a>
+                                <a href="">Trinh Thám</a>
+                                <a href="">Mature</a>  
+                            </div>
+                            <div class="genre-list l-3">
+                                <a href="">Ecchi</a>
+                                <a href="">Fantasy</a>
+                                <a href="">Truyện Màu</a>
+                                <a href="">Harem</a>
+                                <a href="">Historycal</a>
+                                <a href="">Horror</a>
+                                <a href="">Josei</a>
+                                <a href="">Live action</a>
+                                <a href="">Manga</a>
+                                <a href="">Manhua</a>
+                                <a href="">Manhwa</a>
+                                <a href="">Thiếu Nhi</a>
+                                <a href="">Mature</a>  
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="rank">
+                    <span href="">
+                    Xếp hạng <i class="fa fa-sort" aria-hidden="true"></i>
+                    </span>
+                    <div class="rank-container">
+                        <div class="rank-row">
+                            <ul class="l-6">
+                                <li><a href="#">
+                                    <i class="fa-solid fa-eye"></i>
+                                    Top all
+                                </a></li>
+                                <li><a href="#">
+                                    <i class="fa-solid fa-eye"></i>
+                                    Tóp tháng
+                                </a></li>
+                                <li><a href="#">
+                                    <i class="fa-solid fa-eye"></i>
+                                    Tóp tuần
+                                </a></li>
+                                <li><a href="#">
+                                    <i class="fa-solid fa-eye"></i>
+                                    Tóp ngày
+                                </a></li>
+                            </ul>
+                            <ul class="l-6">
+                                <li><a  class="strong" href="#">
+                                    <i class="strong fa-solid fa-signal"></i>
+                                    truyện full
+                                </a></li>
+                                <li><a href="#">
+                                    <i class="fa-regular fa-thumbs-up"></i>
+                                    Yêu thich
+                                </a></li>
+                                <li><a href="#">
+                                    <i class="fa-solid fa-arrows-rotate"></i>
+                                    Mới cập nhật
+                                </a></li>
+                                <li><a href="#">
+                                    <i class="fa-solid fa-cloud-arrow-up"></i>
+                                    Truyện mới
+                                </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                 </li>
+                <li><a href="">Tìm truyện</a></li>
+                <li class="notablet"><a href="">Con gái</a></li>
+                <li class="notablet"><a href="">Con trai</a></li>
+                <li><a href="">Tải app</a></li>
+                <li class="notablet"><a href="">Group</a></li>
+            </ul>
+        </div>
+        <div class="body grid wide">
+            <div class="slider">
+                <div class="slider-name">
+                    <h2>Truyện đề cử</h2>
+                    <i class="fa-regular fa-angle-right icon-right"></i>
+                </div>
+                <div class="comic-nominate">
+                        <a href="#" class="next left"></a>
+                        <a href="#" class="next right"></a>
+                    <ul class="comic-nominate__list">
+                        <li class="comic-nominate__item">
+                            <a href="" class="comic-nominate__img-container">
+                                <img src="./img,icon/comic/toi-cuong-phan-sao-lo-he-thong.jpg" alt="tối cường phản sáo lộ hệ thống" class="comic-nominate__img">
+                            </a>
+                           <div class="comic-nominate__footer">
+                               <a href="#" class="comic-nominate__name">Bách Luyện Thành Thần</a>
+                               <div class="comic-nominate__upload">
+                                   <a href="#" class="comic-nominate__uplate-chapter">Chapter 888</a>
+                                   <div class="comic-nominate__uplate-hour">
+                                        <i class="iconclock fa-regular fa-clock"></i>
+                                        <p>11 giờ trước</p>
+                                   </div>
+                               </div>
+                           </div>
+                        </li>
+                        <li class="comic-nominate__item">
+                            <a href="" class="comic-nominate__img-container">
+                                <img src="./img,icon/comic/toi-cuong-phan-sao-lo-he-thong.jpg" alt="tối cường phản sáo lộ hệ thống" class="comic-nominate__img">
+                            </a>
+                           <div class="comic-nominate__footer">
+                               <a href="#" class="comic-nominate__name">Bách Luyện Thành Thần</a>
+                               <div class="comic-nominate__upload">
+                                   <a href="#" class="comic-nominate__uplate-chapter">Chapter 888</a>
+                                   <div class="comic-nominate__uplate-hour">
+                                        <i class="iconclock fa-regular fa-clock"></i>
+                                        <p>11 giờ trước</p>
+                                   </div>
+                               </div>
+                           </div>
+                        </li>
+                        <li class="comic-nominate__item">
+                            <a href="" class="comic-nominate__img-container">
+                                <img src="./img,icon/comic/toi-cuong-phan-sao-lo-he-thong.jpg" alt="tối cường phản sáo lộ hệ thống" class="comic-nominate__img">
+                            </a>
+                           <div class="comic-nominate__footer">
+                               <a href="#" class="comic-nominate__name">Bách Luyện Thành Thần</a>
+                               <div class="comic-nominate__upload">
+                                   <a href="#" class="comic-nominate__uplate-chapter">Chapter 888</a>
+                                   <div class="comic-nominate__uplate-hour">
+                                        <i class="iconclock fa-regular fa-clock"></i>
+                                        <p>11 giờ trước</p>
+                                   </div>
+                               </div>
+                           </div>
+                        </li>
+                        <li class="comic-nominate__item">
+                            <a href="" class="comic-nominate__img-container">
+                                <img src="./img,icon/comic/toi-cuong-phan-sao-lo-he-thong.jpg" alt="tối cường phản sáo lộ hệ thống" class="comic-nominate__img">
+                            </a>
+                           <div class="comic-nominate__footer">
+                               <a href="#" class="comic-nominate__name">Bách Luyện Thành Thần</a>
+                               <div class="comic-nominate__upload">
+                                   <a href="#" class="comic-nominate__uplate-chapter">Chapter 888</a>
+                                   <div class="comic-nominate__uplate-hour">
+                                        <i class="iconclock fa-regular fa-clock"></i>
+                                        <p>11 giờ trước</p>
+                                   </div>
+                               </div>
+                           </div>
+                        </li>
+                        <li class="comic-nominate__item">
+                            <a href="" class="comic-nominate__img-container">
+                                <img src="./img,icon/comic/toi-cuong-phan-sao-lo-he-thong.jpg" alt="tối cường phản sáo lộ hệ thống" class="comic-nominate__img">
+                            </a>
+                           <div class="comic-nominate__footer">
+                               <a href="#" class="comic-nominate__name">Bách Luyện Thành Thần</a>
+                               <div class="comic-nominate__upload">
+                                   <a href="#" class="comic-nominate__uplate-chapter">Chapter 888</a>
+                                   <div class="comic-nominate__uplate-hour">
+                                        <i class="iconclock fa-regular fa-clock"></i>
+                                        <p>11 giờ trước</p>
+                                   </div>
+                               </div>
+                           </div>
+                        </li>
+                        <li class="comic-nominate__item">
+                            <a href="" class="comic-nominate__img-container">
+                                <img src="./img,icon/comic/toi-cuong-phan-sao-lo-he-thong.jpg" alt="tối cường phản sáo lộ hệ thống" class="comic-nominate__img">
+                            </a>
+                           <div class="comic-nominate__footer">
+                               <a href="#" class="comic-nominate__name">Bách Luyện Thành Thần</a>
+                               <div class="comic-nominate__upload">
+                                   <a href="#" class="comic-nominate__uplate-chapter">Chapter 888</a>
+                                   <div class="comic-nominate__uplate-hour">
+                                        <i class="iconclock fa-regular fa-clock"></i>
+                                        <p>11 giờ trước</p>
+                                   </div>
+                               </div>
+                           </div>
+                        </li>
+                        <li class="comic-nominate__item">
+                            <a href="" class="comic-nominate__img-container">
+                                <img src="./img,icon/comic/toi-cuong-phan-sao-lo-he-thong.jpg" alt="tối cường phản sáo lộ hệ thống" class="comic-nominate__img">
+                            </a>
+                           <div class="comic-nominate__footer">
+                               <a href="#" class="comic-nominate__name">Bách Luyện Thành Thần</a>
+                               <div class="comic-nominate__upload">
+                                   <a href="#" class="comic-nominate__uplate-chapter">Chapter 888</a>
+                                   <div class="comic-nominate__uplate-hour">
+                                        <i class="iconclock fa-regular fa-clock"></i>
+                                        <p>11 giờ trước</p>
+                                   </div>
+                               </div>
+                           </div>
+                        </li>
+                        <li class="comic-nominate__item">
+                            <a href="" class="comic-nominate__img-container">
+                                <img src="./img,icon/comic/toi-cuong-phan-sao-lo-he-thong.jpg" alt="tối cường phản sáo lộ hệ thống" class="comic-nominate__img">
+                            </a>
+                           <div class="comic-nominate__footer">
+                               <a href="#" class="comic-nominate__name">Bách Luyện Thành Thần</a>
+                               <div class="comic-nominate__upload">
+                                   <a href="#" class="comic-nominate__uplate-chapter">Chapter 888</a>
+                                   <div class="comic-nominate__uplate-hour">
+                                        <i class="iconclock fa-regular fa-clock"></i>
+                                        <p>11 giờ trước</p>
+                                   </div>
+                               </div>
+                           </div>
+                        </li>
+                        <li class="comic-nominate__item">
+                            <a href="" class="comic-nominate__img-container">
+                                <img src="./img,icon/comic/toi-cuong-phan-sao-lo-he-thong.jpg" alt="tối cường phản sáo lộ hệ thống" class="comic-nominate__img">
+                            </a>
+                           <div class="comic-nominate__footer">
+                               <a href="#" class="comic-nominate__name">Bách Luyện Thành Thần</a>
+                               <div class="comic-nominate__upload">
+                                   <a href="#" class="comic-nominate__uplate-chapter">Chapter 888</a>
+                                   <div class="comic-nominate__uplate-hour">
+                                        <i class="iconclock fa-regular fa-clock"></i>
+                                        <p>11 giờ trước</p>
+                                   </div>
+                               </div>
+                           </div>
+                        </li>
+                        <li class="comic-nominate__item">
+                            <a href="" class="comic-nominate__img-container">
+                                <img src="./img,icon/comic/toi-cuong-phan-sao-lo-he-thong.jpg" alt="tối cường phản sáo lộ hệ thống" class="comic-nominate__img">
+                            </a>
+                           <div class="comic-nominate__footer">
+                               <a href="#" class="comic-nominate__name">Bách Luyện Thành Thần</a>
+                               <div class="comic-nominate__upload">
+                                   <a href="#" class="comic-nominate__uplate-chapter">Chapter 888</a>
+                                   <div class="comic-nominate__uplate-hour">
+                                        <i class="iconclock fa-regular fa-clock"></i>
+                                        <p>11 giờ trước</p>
+                                   </div>
+                               </div>
+                           </div>
+                        </li>
+                        <li class="comic-nominate__item">
+                            <a href="" class="comic-nominate__img-container">
+                                <img src="./img,icon/comic/toi-cuong-phan-sao-lo-he-thong.jpg" alt="tối cường phản sáo lộ hệ thống" class="comic-nominate__img">
+                            </a>
+                           <div class="comic-nominate__footer">
+                               <a href="#" class="comic-nominate__name">Bách Luyện Thành Thần</a>
+                               <div class="comic-nominate__upload">
+                                   <a href="#" class="comic-nominate__uplate-chapter">Chapter 888</a>
+                                   <div class="comic-nominate__uplate-hour">
+                                        <i class="iconclock fa-regular fa-clock"></i>
+                                        <p>11 giờ trước</p>
+                                   </div>
+                               </div>
+                           </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="body-content">
+                <div class="comic-list">
+                    <div class="comic-list__name">
+                        <span>
+                            <h2>Truyện mới cập nhật</h2>
+                            <i class="icon-right fa-regular fa-angle-right"></i>
+                        </span>
+                        <a href="#" class="icon-filter">
+                            <i class="icon-filter fa-solid fa-filter"></i>
+                        </a>
+                    </div>
+                    <div class="comic-list__container">
+                        <div class="comic-item col l-3 m-3 c-6">
+                            <div class="comic-item__img-container">
+                                <a href="#">
+                                    <img src="./img,icon/comic/bac-si-phau-thuat-hoan-hao.jpg" alt="bác sĩ phẩu thuật hoàng hảo" class="comic-item__img">
+                                </a>
+                                <span class="comic-item__view">
+                                    <i class="iconview fa-solid fa-eye"></i>
+                                    191k
+                                    <i class="iconview fa-solid fa-comment"></i>
+                                    600
+                                    <i class="iconview fa-solid fa-heart"></i>
+                                    320k
+                                </span>
+                            </div>
+                            <div class="comic-item__content">
+                                <div class="comic-item__name">
+                                    <a href="#">
+                                        Tinh Võ Thần Quyết
+                                    </a>
+                                </div>
+                                <div class="comic-item__chapter-list">
+                                        <a href="#" class="chapter-item">
+                                            Chapter 39
+                                        </a>
+                                        <p class="chapter-hour">
+                                            33 phút trước
+                                        </p>
+                                </div>
+                                <div class="comic-item__chapter-list">
+                                    <a href="#" class="chapter-item">
+                                        Chapter 39
+                                    </a>
+                                    <p class="chapter-hour">
+                                        33 phút trước
+                                    </p>
+                                 </div>
+                                 <div class="comic-item__chapter-list">
+                                <a href="#" class="chapter-item">
+                                    Chapter 39
+                                </a>
+                                <p class="chapter-hour">
+                                    33 phút trước
+                                </p>
+                                 </div>
+                            </div>
+                        </div>
+                        <div class="comic-item col l-3 m-3 c-6">
+                            <div class="comic-item__img-container">
+                                <a href="#">
+                                    <img src="./img,icon/comic/bac-si-phau-thuat-hoan-hao.jpg" alt="bác sĩ phẩu thuật hoàng hảo" class="comic-item__img">
+                                </a>
+                                <span class="comic-item__view">
+                                    <i class="iconview fa-solid fa-eye"></i>
+                                    191k
+                                    <i class="iconview fa-solid fa-comment"></i>
+                                    600
+                                    <i class="iconview fa-solid fa-heart"></i>
+                                    320k
+                                </span>
+                            </div>
+                            <div class="comic-item__content">
+                                <div class="comic-item__name">
+                                    <a href="#">
+                                        Tinh Võ Thần Quyết
+                                    </a>
+                                </div>
+                                <div class="comic-item__chapter-list">
+                                        <a href="#" class="chapter-item">
+                                            Chapter 39
+                                        </a>
+                                        <p class="chapter-hour">
+                                            33 phút trước
+                                        </p>
+                                </div>
+                                <div class="comic-item__chapter-list">
+                                    <a href="#" class="chapter-item">
+                                        Chapter 39
+                                    </a>
+                                    <p class="chapter-hour">
+                                        33 phút trước
+                                    </p>
+                                 </div>
+                                 <div class="comic-item__chapter-list">
+                                <a href="#" class="chapter-item">
+                                    Chapter 39
+                                </a>
+                                <p class="chapter-hour">
+                                    33 phút trước
+                                </p>
+                                 </div>
+                            </div>
+                        </div>
+                        <div class="comic-item col l-3 m-3 c-6">
+                            <div class="comic-item__img-container">
+                                <a href="#">
+                                    <img src="./img,icon/comic/bac-si-phau-thuat-hoan-hao.jpg" alt="bác sĩ phẩu thuật hoàng hảo" class="comic-item__img">
+                                </a>
+                                <span class="comic-item__view">
+                                    <i class="iconview fa-solid fa-eye"></i>
+                                    191k
+                                    <i class="iconview fa-solid fa-comment"></i>
+                                    600
+                                    <i class="iconview fa-solid fa-heart"></i>
+                                    320k
+                                </span>
+                            </div>
+                            <div class="comic-item__content">
+                                <div class="comic-item__name">
+                                    <a href="#">
+                                        Tinh Võ Thần Quyết
+                                    </a>
+                                </div>
+                                <div class="comic-item__chapter-list">
+                                        <a href="#" class="chapter-item">
+                                            Chapter 39
+                                        </a>
+                                        <p class="chapter-hour">
+                                            33 phút trước
+                                        </p>
+                                </div>
+                                <div class="comic-item__chapter-list">
+                                    <a href="#" class="chapter-item">
+                                        Chapter 39
+                                    </a>
+                                    <p class="chapter-hour">
+                                        33 phút trước
+                                    </p>
+                                 </div>
+                                 <div class="comic-item__chapter-list">
+                                <a href="#" class="chapter-item">
+                                    Chapter 39
+                                </a>
+                                <p class="chapter-hour">
+                                    33 phút trước
+                                </p>
+                                 </div>
+                            </div>
+                        </div>
+                        <div class="comic-item col l-3 m-3 c-6">
+                            <div class="comic-item__img-container">
+                                <a href="#">
+                                    <img src="./img,icon/comic/bac-si-phau-thuat-hoan-hao.jpg" alt="bác sĩ phẩu thuật hoàng hảo" class="comic-item__img">
+                                </a>
+                                <span class="comic-item__view">
+                                    <i class="iconview fa-solid fa-eye"></i>
+                                    191k
+                                    <i class="iconview fa-solid fa-comment"></i>
+                                    600
+                                    <i class="iconview fa-solid fa-heart"></i>
+                                    320k
+                                </span>
+                            </div>
+                            <div class="comic-item__content">
+                                <div class="comic-item__name">
+                                    <a href="#">
+                                        Tinh Võ Thần Quyết
+                                    </a>
+                                </div>
+                                <div class="comic-item__chapter-list">
+                                        <a href="#" class="chapter-item">
+                                            Chapter 39
+                                        </a>
+                                        <p class="chapter-hour">
+                                            33 phút trước
+                                        </p>
+                                </div>
+                                <div class="comic-item__chapter-list">
+                                    <a href="#" class="chapter-item">
+                                        Chapter 39
+                                    </a>
+                                    <p class="chapter-hour">
+                                        33 phút trước
+                                    </p>
+                                 </div>
+                                 <div class="comic-item__chapter-list">
+                                <a href="#" class="chapter-item">
+                                    Chapter 39
+                                </a>
+                                <p class="chapter-hour">
+                                    33 phút trước
+                                </p>
+                                 </div>
+                            </div>
+                        </div>
+                        <div class="comic-item col l-3 m-3 c-6">
+                            <div class="comic-item__img-container">
+                                <a href="#">
+                                    <img src="./img,icon/comic/bac-si-phau-thuat-hoan-hao.jpg" alt="bác sĩ phẩu thuật hoàng hảo" class="comic-item__img">
+                                </a>
+                                <span class="comic-item__view">
+                                    <i class="iconview fa-solid fa-eye"></i>
+                                    191k
+                                    <i class="iconview fa-solid fa-comment"></i>
+                                    600
+                                    <i class="iconview fa-solid fa-heart"></i>
+                                    320k
+                                </span>
+                            </div>
+                            <div class="comic-item__content">
+                                <div class="comic-item__name">
+                                    <a href="#">
+                                        Tinh Võ Thần Quyết
+                                    </a>
+                                </div>
+                                <div class="comic-item__chapter-list">
+                                        <a href="#" class="chapter-item">
+                                            Chapter 39
+                                        </a>
+                                        <p class="chapter-hour">
+                                            33 phút trước
+                                        </p>
+                                </div>
+                                <div class="comic-item__chapter-list">
+                                    <a href="#" class="chapter-item">
+                                        Chapter 39
+                                    </a>
+                                    <p class="chapter-hour">
+                                        33 phút trước
+                                    </p>
+                                 </div>
+                                 <div class="comic-item__chapter-list">
+                                <a href="#" class="chapter-item">
+                                    Chapter 39
+                                </a>
+                                <p class="chapter-hour">
+                                    33 phút trước
+                                </p>
+                                 </div>
+                            </div>
+                        </div>
+                        <div class="comic-item col l-3 m-3 c-6">
+                            <div class="comic-item__img-container">
+                                <a href="#">
+                                    <img src="./img,icon/comic/bac-si-phau-thuat-hoan-hao.jpg" alt="bác sĩ phẩu thuật hoàng hảo" class="comic-item__img">
+                                </a>
+                                <span class="comic-item__view">
+                                    <i class="iconview fa-solid fa-eye"></i>
+                                    191k
+                                    <i class="iconview fa-solid fa-comment"></i>
+                                    600
+                                    <i class="iconview fa-solid fa-heart"></i>
+                                    320k
+                                </span>
+                            </div>
+                            <div class="comic-item__content">
+                                <div class="comic-item__name">
+                                    <a href="#">
+                                        Tinh Võ Thần Quyết
+                                    </a>
+                                </div>
+                                <div class="comic-item__chapter-list">
+                                        <a href="#" class="chapter-item">
+                                            Chapter 39
+                                        </a>
+                                        <p class="chapter-hour">
+                                            33 phút trước
+                                        </p>
+                                </div>
+                                <div class="comic-item__chapter-list">
+                                    <a href="#" class="chapter-item">
+                                        Chapter 39
+                                    </a>
+                                    <p class="chapter-hour">
+                                        33 phút trước
+                                    </p>
+                                 </div>
+                                 <div class="comic-item__chapter-list">
+                                <a href="#" class="chapter-item">
+                                    Chapter 39
+                                </a>
+                                <p class="chapter-hour">
+                                    33 phút trước
+                                </p>
+                                 </div>
+                            </div>
+                        </div>
+                        <div class="comic-item col l-3 m-3 c-6">
+                            <div class="comic-item__img-container">
+                                <a href="#">
+                                    <img src="./img,icon/comic/bac-si-phau-thuat-hoan-hao.jpg" alt="bác sĩ phẩu thuật hoàng hảo" class="comic-item__img">
+                                </a>
+                                <span class="comic-item__view">
+                                    <i class="iconview fa-solid fa-eye"></i>
+                                    191k
+                                    <i class="iconview fa-solid fa-comment"></i>
+                                    600
+                                    <i class="iconview fa-solid fa-heart"></i>
+                                    320k
+                                </span>
+                            </div>
+                            <div class="comic-item__content">
+                                <div class="comic-item__name">
+                                    <a href="#">
+                                        Tinh Võ Thần Quyết
+                                    </a>
+                                </div>
+                                <div class="comic-item__chapter-list">
+                                        <a href="#" class="chapter-item">
+                                            Chapter 39
+                                        </a>
+                                        <p class="chapter-hour">
+                                            33 phút trước
+                                        </p>
+                                </div>
+                                <div class="comic-item__chapter-list">
+                                    <a href="#" class="chapter-item">
+                                        Chapter 39
+                                    </a>
+                                    <p class="chapter-hour">
+                                        33 phút trước
+                                    </p>
+                                 </div>
+                                 <div class="comic-item__chapter-list">
+                                <a href="#" class="chapter-item">
+                                    Chapter 39
+                                </a>
+                                <p class="chapter-hour">
+                                    33 phút trước
+                                </p>
+                                 </div>
+                            </div>
+                        </div>
+                        <div class="comic-item col l-3 m-3 c-6">
+                            <div class="comic-item__img-container">
+                                <a href="#">
+                                    <img src="./img,icon/comic/bac-si-phau-thuat-hoan-hao.jpg" alt="bác sĩ phẩu thuật hoàng hảo" class="comic-item__img">
+                                </a>
+                                <span class="comic-item__view">
+                                    <i class="iconview fa-solid fa-eye"></i>
+                                    191k
+                                    <i class="iconview fa-solid fa-comment"></i>
+                                    600
+                                    <i class="iconview fa-solid fa-heart"></i>
+                                    320k
+                                </span>
+                            </div>
+                            <div class="comic-item__content">
+                                <div class="comic-item__name">
+                                    <a href="#">
+                                        Tinh Võ Thần Quyết
+                                    </a>
+                                </div>
+                                <div class="comic-item__chapter-list">
+                                        <a href="#" class="chapter-item">
+                                            Chapter 39
+                                        </a>
+                                        <p class="chapter-hour">
+                                            33 phút trước
+                                        </p>
+                                </div>
+                                <div class="comic-item__chapter-list">
+                                    <a href="#" class="chapter-item">
+                                        Chapter 39
+                                    </a>
+                                    <p class="chapter-hour">
+                                        33 phút trước
+                                    </p>
+                                 </div>
+                                 <div class="comic-item__chapter-list">
+                                <a href="#" class="chapter-item">
+                                    Chapter 39
+                                </a>
+                                <p class="chapter-hour">
+                                    33 phút trước
+                                </p>
+                                 </div>
+                            </div>
+                        </div>
+                        <div class="comic-item col l-3 m-3 c-6">
+                            <div class="comic-item__img-container">
+                                <a href="#">
+                                    <img src="./img,icon/comic/bac-si-phau-thuat-hoan-hao.jpg" alt="bác sĩ phẩu thuật hoàng hảo" class="comic-item__img">
+                                </a>
+                                <span class="comic-item__view">
+                                    <i class="iconview fa-solid fa-eye"></i>
+                                    191k
+                                    <i class="iconview fa-solid fa-comment"></i>
+                                    600
+                                    <i class="iconview fa-solid fa-heart"></i>
+                                    320k
+                                </span>
+                            </div>
+                            <div class="comic-item__content">
+                                <div class="comic-item__name">
+                                    <a href="#">
+                                        Tinh Võ Thần Quyết
+                                    </a>
+                                </div>
+                                <div class="comic-item__chapter-list">
+                                        <a href="#" class="chapter-item">
+                                            Chapter 39
+                                        </a>
+                                        <p class="chapter-hour">
+                                            33 phút trước
+                                        </p>
+                                </div>
+                                <div class="comic-item__chapter-list">
+                                    <a href="#" class="chapter-item">
+                                        Chapter 39
+                                    </a>
+                                    <p class="chapter-hour">
+                                        33 phút trước
+                                    </p>
+                                 </div>
+                                 <div class="comic-item__chapter-list">
+                                <a href="#" class="chapter-item">
+                                    Chapter 39
+                                </a>
+                                <p class="chapter-hour">
+                                    33 phút trước
+                                </p>
+                                 </div>
+                            </div>
+                        </div>
+                        <div class="comic-item col l-3 m-3 c-6">
+                            <div class="comic-item__img-container">
+                                <a href="#">
+                                    <img src="./img,icon/comic/bac-si-phau-thuat-hoan-hao.jpg" alt="bác sĩ phẩu thuật hoàng hảo" class="comic-item__img">
+                                </a>
+                                <span class="comic-item__view">
+                                    <i class="iconview fa-solid fa-eye"></i>
+                                    191k
+                                    <i class="iconview fa-solid fa-comment"></i>
+                                    600
+                                    <i class="iconview fa-solid fa-heart"></i>
+                                    320k
+                                </span>
+                            </div>
+                            <div class="comic-item__content">
+                                <div class="comic-item__name">
+                                    <a href="#">
+                                        Tinh Võ Thần Quyết
+                                    </a>
+                                </div>
+                                <div class="comic-item__chapter-list">
+                                        <a href="#" class="chapter-item">
+                                            Chapter 39
+                                        </a>
+                                        <p class="chapter-hour">
+                                            33 phút trước
+                                        </p>
+                                </div>
+                                <div class="comic-item__chapter-list">
+                                    <a href="#" class="chapter-item">
+                                        Chapter 39
+                                    </a>
+                                    <p class="chapter-hour">
+                                        33 phút trước
+                                    </p>
+                                 </div>
+                                 <div class="comic-item__chapter-list">
+                                <a href="#" class="chapter-item">
+                                    Chapter 39
+                                </a>
+                                <p class="chapter-hour">
+                                    33 phút trước
+                                </p>
+                                 </div>
+                            </div>
+                        </div>
+                        <div class="comic-item col l-3 m-3 c-6">
+                            <div class="comic-item__img-container">
+                                <a href="#">
+                                    <img src="./img,icon/comic/bac-si-phau-thuat-hoan-hao.jpg" alt="bác sĩ phẩu thuật hoàng hảo" class="comic-item__img">
+                                </a>
+                                <span class="comic-item__view">
+                                    <i class="iconview fa-solid fa-eye"></i>
+                                    191k
+                                    <i class="iconview fa-solid fa-comment"></i>
+                                    600
+                                    <i class="iconview fa-solid fa-heart"></i>
+                                    320k
+                                </span>
+                            </div>
+                            <div class="comic-item__content">
+                                <div class="comic-item__name">
+                                    <a href="#">
+                                        Tinh Võ Thần Quyết
+                                    </a>
+                                </div>
+                                <div class="comic-item__chapter-list">
+                                        <a href="#" class="chapter-item">
+                                            Chapter 39
+                                        </a>
+                                        <p class="chapter-hour">
+                                            33 phút trước
+                                        </p>
+                                </div>
+                                <div class="comic-item__chapter-list">
+                                    <a href="#" class="chapter-item">
+                                        Chapter 39
+                                    </a>
+                                    <p class="chapter-hour">
+                                        33 phút trước
+                                    </p>
+                                 </div>
+                                 <div class="comic-item__chapter-list">
+                                <a href="#" class="chapter-item">
+                                    Chapter 39
+                                </a>
+                                <p class="chapter-hour">
+                                    33 phút trước
+                                </p>
+                                 </div>
+                            </div>
+                        </div>
+                        <div class="comic-item col l-3 m-3 c-6">
+                            <div class="comic-item__img-container">
+                                <a href="#">
+                                    <img src="./img,icon/comic/bac-si-phau-thuat-hoan-hao.jpg" alt="bác sĩ phẩu thuật hoàng hảo" class="comic-item__img">
+                                </a>
+                                <span class="comic-item__view">
+                                    <i class="iconview fa-solid fa-eye"></i>
+                                    191k
+                                    <i class="iconview fa-solid fa-comment"></i>
+                                    600
+                                    <i class="iconview fa-solid fa-heart"></i>
+                                    320k
+                                </span>
+                            </div>
+                            <div class="comic-item__content">
+                                <div class="comic-item__name">
+                                    <a href="#">
+                                        Tinh Võ Thần Quyết
+                                    </a>
+                                </div>
+                                <div class="comic-item__chapter-list">
+                                        <a href="#" class="chapter-item">
+                                            Chapter 39
+                                        </a>
+                                        <p class="chapter-hour">
+                                            33 phút trước
+                                        </p>
+                                </div>
+                                <div class="comic-item__chapter-list">
+                                    <a href="#" class="chapter-item">
+                                        Chapter 39
+                                    </a>
+                                    <p class="chapter-hour">
+                                        33 phút trước
+                                    </p>
+                                 </div>
+                                 <div class="comic-item__chapter-list">
+                                <a href="#" class="chapter-item">
+                                    Chapter 39
+                                </a>
+                                <p class="chapter-hour">
+                                    33 phút trước
+                                </p>
+                                 </div>
+                            </div>
+                        </div>
+                        <div class="comic-item col l-3 m-3 c-6">
+                            <div class="comic-item__img-container">
+                                <a href="#">
+                                    <img src="./img,icon/comic/bac-si-phau-thuat-hoan-hao.jpg" alt="bác sĩ phẩu thuật hoàng hảo" class="comic-item__img">
+                                </a>
+                                <span class="comic-item__view">
+                                    <i class="iconview fa-solid fa-eye"></i>
+                                    191k
+                                    <i class="iconview fa-solid fa-comment"></i>
+                                    600
+                                    <i class="iconview fa-solid fa-heart"></i>
+                                    320k
+                                </span>
+                            </div>
+                            <div class="comic-item__content">
+                                <div class="comic-item__name">
+                                    <a href="#">
+                                        Tinh Võ Thần Quyết
+                                    </a>
+                                </div>
+                                <div class="comic-item__chapter-list">
+                                        <a href="#" class="chapter-item">
+                                            Chapter 39
+                                        </a>
+                                        <p class="chapter-hour">
+                                            33 phút trước
+                                        </p>
+                                </div>
+                                <div class="comic-item__chapter-list">
+                                    <a href="#" class="chapter-item">
+                                        Chapter 39
+                                    </a>
+                                    <p class="chapter-hour">
+                                        33 phút trước
+                                    </p>
+                                 </div>
+                                 <div class="comic-item__chapter-list">
+                                <a href="#" class="chapter-item">
+                                    Chapter 39
+                                </a>
+                                <p class="chapter-hour">
+                                    33 phút trước
+                                </p>
+                                 </div>
+                            </div>
+                        </div>
+                        <div class="comic-item col l-3 m-3 c-6">
+                            <div class="comic-item__img-container">
+                                <a href="#">
+                                    <img src="./img,icon/comic/bac-si-phau-thuat-hoan-hao.jpg" alt="bác sĩ phẩu thuật hoàng hảo" class="comic-item__img">
+                                </a>
+                                <span class="comic-item__view">
+                                    <i class="iconview fa-solid fa-eye"></i>
+                                    191k
+                                    <i class="iconview fa-solid fa-comment"></i>
+                                    600
+                                    <i class="iconview fa-solid fa-heart"></i>
+                                    320k
+                                </span>
+                            </div>
+                            <div class="comic-item__content">
+                                <div class="comic-item__name">
+                                    <a href="#">
+                                        Tinh Võ Thần Quyết
+                                    </a>
+                                </div>
+                                <div class="comic-item__chapter-list">
+                                        <a href="#" class="chapter-item">
+                                            Chapter 39
+                                        </a>
+                                        <p class="chapter-hour">
+                                            33 phút trước
+                                        </p>
+                                </div>
+                                <div class="comic-item__chapter-list">
+                                    <a href="#" class="chapter-item">
+                                        Chapter 39
+                                    </a>
+                                    <p class="chapter-hour">
+                                        33 phút trước
+                                    </p>
+                                 </div>
+                                 <div class="comic-item__chapter-list">
+                                <a href="#" class="chapter-item">
+                                    Chapter 39
+                                </a>
+                                <p class="chapter-hour">
+                                    33 phút trước
+                                </p>
+                                 </div>
+                            </div>
+                        </div>
+                        <div class="comic-item col l-3 m-3 c-6">
+                            <div class="comic-item__img-container">
+                                <a href="#">
+                                    <img src="./img,icon/comic/bac-si-phau-thuat-hoan-hao.jpg" alt="bác sĩ phẩu thuật hoàng hảo" class="comic-item__img">
+                                </a>
+                                <span class="comic-item__view">
+                                    <i class="iconview fa-solid fa-eye"></i>
+                                    191k
+                                    <i class="iconview fa-solid fa-comment"></i>
+                                    600
+                                    <i class="iconview fa-solid fa-heart"></i>
+                                    320k
+                                </span>
+                            </div>
+                            <div class="comic-item__content">
+                                <div class="comic-item__name">
+                                    <a href="#">
+                                        Tinh Võ Thần Quyết
+                                    </a>
+                                </div>
+                                <div class="comic-item__chapter-list">
+                                        <a href="#" class="chapter-item">
+                                            Chapter 39
+                                        </a>
+                                        <p class="chapter-hour">
+                                            33 phút trước
+                                        </p>
+                                </div>
+                                <div class="comic-item__chapter-list">
+                                    <a href="#" class="chapter-item">
+                                        Chapter 39
+                                    </a>
+                                    <p class="chapter-hour">
+                                        33 phút trước
+                                    </p>
+                                 </div>
+                                 <div class="comic-item__chapter-list">
+                                <a href="#" class="chapter-item">
+                                    Chapter 39
+                                </a>
+                                <p class="chapter-hour">
+                                    33 phút trước
+                                </p>
+                                 </div>
+                            </div>
+                        </div>
+                        <div class="comic-item col l-3 m-3 c-6">
+                            <div class="comic-item__img-container">
+                                <a href="#">
+                                    <img src="./img,icon/comic/bac-si-phau-thuat-hoan-hao.jpg" alt="bác sĩ phẩu thuật hoàng hảo" class="comic-item__img">
+                                </a>
+                                <span class="comic-item__view">
+                                    <i class="iconview fa-solid fa-eye"></i>
+                                    191k
+                                    <i class="iconview fa-solid fa-comment"></i>
+                                    600
+                                    <i class="iconview fa-solid fa-heart"></i>
+                                    320k
+                                </span>
+                            </div>
+                            <div class="comic-item__content">
+                                <div class="comic-item__name">
+                                    <a href="#">
+                                        Tinh Võ Thần Quyết
+                                    </a>
+                                </div>
+                                <div class="comic-item__chapter-list">
+                                        <a href="#" class="chapter-item">
+                                            Chapter 39
+                                        </a>
+                                        <p class="chapter-hour">
+                                            33 phút trước
+                                        </p>
+                                </div>
+                                <div class="comic-item__chapter-list">
+                                    <a href="#" class="chapter-item">
+                                        Chapter 39
+                                    </a>
+                                    <p class="chapter-hour">
+                                        33 phút trước
+                                    </p>
+                                 </div>
+                                 <div class="comic-item__chapter-list">
+                                <a href="#" class="chapter-item">
+                                    Chapter 39
+                                </a>
+                                <p class="chapter-hour">
+                                    33 phút trước
+                                </p>
+                                 </div>
+                            </div>
+                        </div>
+                        <div class="comic-item col l-3 m-3 c-6">
+                            <div class="comic-item__img-container">
+                                <a href="#">
+                                    <img src="./img,icon/comic/bac-si-phau-thuat-hoan-hao.jpg" alt="bác sĩ phẩu thuật hoàng hảo" class="comic-item__img">
+                                </a>
+                                <span class="comic-item__view">
+                                    <i class="iconview fa-solid fa-eye"></i>
+                                    191k
+                                    <i class="iconview fa-solid fa-comment"></i>
+                                    600
+                                    <i class="iconview fa-solid fa-heart"></i>
+                                    320k
+                                </span>
+                            </div>
+                            <div class="comic-item__content">
+                                <div class="comic-item__name">
+                                    <a href="#">
+                                        Tinh Võ Thần Quyết
+                                    </a>
+                                </div>
+                                <div class="comic-item__chapter-list">
+                                        <a href="#" class="chapter-item">
+                                            Chapter 39
+                                        </a>
+                                        <p class="chapter-hour">
+                                            33 phút trước
+                                        </p>
+                                </div>
+                                <div class="comic-item__chapter-list">
+                                    <a href="#" class="chapter-item">
+                                        Chapter 39
+                                    </a>
+                                    <p class="chapter-hour">
+                                        33 phút trước
+                                    </p>
+                                 </div>
+                                 <div class="comic-item__chapter-list">
+                                <a href="#" class="chapter-item">
+                                    Chapter 39
+                                </a>
+                                <p class="chapter-hour">
+                                    33 phút trước
+                                </p>
+                                 </div>
+                            </div>
+                        </div>
+                        <div class="comic-item col l-3 m-3 c-6">
+                            <div class="comic-item__img-container">
+                                <a href="#">
+                                    <img src="./img,icon/comic/bac-si-phau-thuat-hoan-hao.jpg" alt="bác sĩ phẩu thuật hoàng hảo" class="comic-item__img">
+                                </a>
+                                <span class="comic-item__view">
+                                    <i class="iconview fa-solid fa-eye"></i>
+                                    191k
+                                    <i class="iconview fa-solid fa-comment"></i>
+                                    600
+                                    <i class="iconview fa-solid fa-heart"></i>
+                                    320k
+                                </span>
+                            </div>
+                            <div class="comic-item__content">
+                                <div class="comic-item__name">
+                                    <a href="#">
+                                        Tinh Võ Thần Quyết
+                                    </a>
+                                </div>
+                                <div class="comic-item__chapter-list">
+                                        <a href="#" class="chapter-item">
+                                            Chapter 39
+                                        </a>
+                                        <p class="chapter-hour">
+                                            33 phút trước
+                                        </p>
+                                </div>
+                                <div class="comic-item__chapter-list">
+                                    <a href="#" class="chapter-item">
+                                        Chapter 39
+                                    </a>
+                                    <p class="chapter-hour">
+                                        33 phút trước
+                                    </p>
+                                 </div>
+                                 <div class="comic-item__chapter-list">
+                                <a href="#" class="chapter-item">
+                                    Chapter 39
+                                </a>
+                                <p class="chapter-hour">
+                                    33 phút trước
+                                </p>
+                                 </div>
+                            </div>
+                        </div>
+                        <div class="comic-item col l-3 m-3 c-6">
+                            <div class="comic-item__img-container">
+                                <a href="#">
+                                    <img src="./img,icon/comic/bac-si-phau-thuat-hoan-hao.jpg" alt="bác sĩ phẩu thuật hoàng hảo" class="comic-item__img">
+                                </a>
+                                <span class="comic-item__view">
+                                    <i class="iconview fa-solid fa-eye"></i>
+                                    191k
+                                    <i class="iconview fa-solid fa-comment"></i>
+                                    600
+                                    <i class="iconview fa-solid fa-heart"></i>
+                                    320k
+                                </span>
+                            </div>
+                            <div class="comic-item__content">
+                                <div class="comic-item__name">
+                                    <a href="#">
+                                        Tinh Võ Thần Quyết
+                                    </a>
+                                </div>
+                                <div class="comic-item__chapter-list">
+                                        <a href="#" class="chapter-item">
+                                            Chapter 39
+                                        </a>
+                                        <p class="chapter-hour">
+                                            33 phút trước
+                                        </p>
+                                </div>
+                                <div class="comic-item__chapter-list">
+                                    <a href="#" class="chapter-item">
+                                        Chapter 39
+                                    </a>
+                                    <p class="chapter-hour">
+                                        33 phút trước
+                                    </p>
+                                 </div>
+                                 <div class="comic-item__chapter-list">
+                                <a href="#" class="chapter-item">
+                                    Chapter 39
+                                </a>
+                                <p class="chapter-hour">
+                                    33 phút trước
+                                </p>
+                                 </div>
+                            </div>
+                        </div>
+                        <div class="comic-item col l-3 m-3 c-6">
+                            <div class="comic-item__img-container">
+                                <a href="#">
+                                    <img src="./img,icon/comic/bac-si-phau-thuat-hoan-hao.jpg" alt="bác sĩ phẩu thuật hoàng hảo" class="comic-item__img">
+                                </a>
+                                <span class="comic-item__view">
+                                    <i class="iconview fa-solid fa-eye"></i>
+                                    191k
+                                    <i class="iconview fa-solid fa-comment"></i>
+                                    600
+                                    <i class="iconview fa-solid fa-heart"></i>
+                                    320k
+                                </span>
+                            </div>
+                            <div class="comic-item__content">
+                                <div class="comic-item__name">
+                                    <a href="#">
+                                        Tinh Võ Thần Quyết
+                                    </a>
+                                </div>
+                                <div class="comic-item__chapter-list">
+                                        <a href="#" class="chapter-item">
+                                            Chapter 39
+                                        </a>
+                                        <p class="chapter-hour">
+                                            33 phút trước
+                                        </p>
+                                </div>
+                                <div class="comic-item__chapter-list">
+                                    <a href="#" class="chapter-item">
+                                        Chapter 39
+                                    </a>
+                                    <p class="chapter-hour">
+                                        33 phút trước
+                                    </p>
+                                 </div>
+                                 <div class="comic-item__chapter-list">
+                                <a href="#" class="chapter-item">
+                                    Chapter 39
+                                </a>
+                                <p class="chapter-hour">
+                                    33 phút trước
+                                </p>
+                                 </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="comic-list__page">
+                        <ul class="page-list">
+                            <li><a href="#">
+                                <i class="icon-page fa-solid fa-angles-left"></i>
+                            </a></li>
+                            <li><a href="#">
+                                <i class="icon-page fa-solid fa-angle-left"></i>
+                            </a></li>
+                            <li class="page click-page"><a href="#">
+                                1
+                            </a></li>
+                            <li class="page"><a href="#">
+                                2
+                            </a></li>
+                            <li class="page"><a href="#">
+                                3
+                            </a></li>
+                            <li class="page"><a href="#">
+                                4
+                            </a></li>
+                            <li class="page"><a href="#">
+                                5
+                            </a></li>
+                            <li class="page"><a href="#">
+                                90
+                            </a></li>
+                            <li class="page"><a href="#">
+                                180
+                            </a></li>
+                            <li class="page"><a href="#">
+                                270
+                            </a></li>
+                            <li class="page"><a href="#">
+                                370
+                            </a></li>
+                            <li class="page"><a href="#">
+                                460
+                            </a></li>
+                            <li><a href="#">
+                                <i class="icon-page fa-solid fa-angle-right"></i>
+                            </a></li>
+                            <li><a href="#">
+                                <i class="icon-page fa-solid fa-angles-right"></i>
+                            </a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="introduce">
+                    <div class="border-box">
+                        <div class="border-box__name">Lịch sử đọc truyện</div>
+                    </div>
+                    <div class="comic-rank">
+                        <ul class="comic-rank__rank-name">
+                            <li class="top-month"><a href="#">Top Tháng</a></li>
+                            <li class="top"><a href="#">Top Tuần</a></li>
+                            <li class="top"><a href="#">Top Ngày</a></li>
+                        </ul>
+                        <ul class="rank-list">
+                            <li class="rank-item">
+                                <span class="number-blue rank-number">01</span>
+                                <div class="rank-item__content">
+                                    <a class="rank-item_img" href="#">
+                                        <img src="./img,icon/comic/vo-luyen-dinh-phong.jpg" alt="võ luyện đỉnh phong" class="rank-img">
+                                    </a>
+                                    <div class="rank-item__content-footer">
+                                        <a href="#" class="rank-item__name">Võ Luyện Đỉnh Phong</a>
+                                        <span class="rank-item__footer">
+                                            <a href="#" class="rank-item__chapter">Chapter 2382</a>
+                                            <div class="rank-item__view">
+                                                <i class="icon-eye-rank fa-solid fa-eye"></i>
+                                                33M
+                                            </div>
+                                        </span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="rank-item">
+                                <span class="nummber-green rank-number">02</span>
+                                <div class="rank-item__content">
+                                    <a class="rank-item_img" href="#">
+                                        <img src="./img,icon/comic/vo-luyen-dinh-phong.jpg" alt="võ luyện đỉnh phong" class="rank-img">
+                                    </a>
+                                    <div class="rank-item__content-footer">
+                                        <a href="#" class="rank-item__name">Võ Luyện Đỉnh Phong</a>
+                                        <span class="rank-item__footer">
+                                            <a href="#" class="rank-item__chapter">Chapter 2382</a>
+                                            <div class="rank-item__view">
+                                                <i class="icon-eye-rank fa-solid fa-eye"></i>
+                                                33M
+                                            </div>
+                                        </span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="rank-item">
+                                <span class="number-red rank-number">03</span>
+                                <div class="rank-item__content">
+                                    <a class="rank-item_img" href="#">
+                                        <img src="./img,icon/comic/vo-luyen-dinh-phong.jpg" alt="võ luyện đỉnh phong" class="rank-img">
+                                    </a>
+                                    <div class="rank-item__content-footer">
+                                        <a href="#" class="rank-item__name">Võ Luyện Đỉnh Phong</a>
+                                        <span class="rank-item__footer">
+                                            <a href="#" class="rank-item__chapter">Chapter 2382</a>
+                                            <div class="rank-item__view">
+                                                <i class="icon-eye-rank fa-solid fa-eye"></i>
+                                                33M
+                                            </div>
+                                        </span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="rank-item">
+                                <span class="rank-number">04</span>
+                                <div class="rank-item__content">
+                                    <a class="rank-item_img" href="#">
+                                        <img src="./img,icon/comic/vo-luyen-dinh-phong.jpg" alt="võ luyện đỉnh phong" class="rank-img">
+                                    </a>
+                                    <div class="rank-item__content-footer">
+                                        <a href="#" class="rank-item__name">Võ Luyện Đỉnh Phong</a>
+                                        <span class="rank-item__footer">
+                                            <a href="#" class="rank-item__chapter">Chapter 2382</a>
+                                            <div class="rank-item__view">
+                                                <i class="icon-eye-rank fa-solid fa-eye"></i>
+                                                33M
+                                            </div>
+                                        </span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="rank-item">
+                                <span class="rank-number">05</span>
+                                <div class="rank-item__content">
+                                    <a class="rank-item_img" href="#">
+                                        <img src="./img,icon/comic/vo-luyen-dinh-phong.jpg" alt="võ luyện đỉnh phong" class="rank-img">
+                                    </a>
+                                    <div class="rank-item__content-footer">
+                                        <a href="#" class="rank-item__name">Võ Luyện Đỉnh Phong</a>
+                                        <span class="rank-item__footer">
+                                            <a href="#" class="rank-item__chapter">Chapter 2382</a>
+                                            <div class="rank-item__view">
+                                                <i class="icon-eye-rank fa-solid fa-eye"></i>
+                                                33M
+                                            </div>
+                                        </span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="rank-item">
+                                <span class="rank-number">06</span>
+                                <div class="rank-item__content">
+                                    <a class="rank-item_img" href="#">
+                                        <img src="./img,icon/comic/vo-luyen-dinh-phong.jpg" alt="võ luyện đỉnh phong" class="rank-img">
+                                    </a>
+                                    <div class="rank-item__content-footer">
+                                        <a href="#" class="rank-item__name">Võ Luyện Đỉnh Phong</a>
+                                        <span class="rank-item__footer">
+                                            <a href="#" class="rank-item__chapter">Chapter 2382</a>
+                                            <div class="rank-item__view">
+                                                <i class="icon-eye-rank fa-solid fa-eye"></i>
+                                                33M
+                                            </div>
+                                        </span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="rank-item">
+                                <span class="rank-number">07</span>
+                                <div class="rank-item__content">
+                                    <a class="rank-item_img" href="#">
+                                        <img src="./img,icon/comic/vo-luyen-dinh-phong.jpg" alt="võ luyện đỉnh phong" class="rank-img">
+                                    </a>
+                                    <div class="rank-item__content-footer">
+                                        <a href="#" class="rank-item__name">Võ Luyện Đỉnh Phong</a>
+                                        <span class="rank-item__footer">
+                                            <a href="#" class="rank-item__chapter">Chapter 2382</a>
+                                            <div class="rank-item__view">
+                                                <i class="icon-eye-rank fa-solid fa-eye"></i>
+                                                33M
+                                            </div>
+                                        </span>
+                                    </div>
+                                </div>
+                            </li>
+ 
+                        </ul>
+                    </div>
+                    <div class="border-box">
+                        <p class="border-box__name">Top Thành Viên</p>
+                        <div class="member-rank__item">
+                            <span class="number-blue rank-number">01</span>
+                            <img src="./img,icon/comic/member1.jpg" alt="soái" class="member-img">
+                            <div class="member">
+                                <div class="member-name">Kê Tử - Mộng Tiên Giới</div>
+                                <div class="member-level">
+                                    Cấp 5
+                                   <span class="progress-color"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="member-rank__item">
+                            <span class="number-green rank-number">02</span>
+                            <img src="./img,icon/comic/member1.jpg" alt="soái" class="member-img">
+                            <div class="member">
+                                <div class="member-name">Kê Tử - Mộng Tiên Giới</div>
+                                <div class="member-level">
+                                    Cấp 5
+                                   <span class="progress-color"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="member-rank__item">
+                            <span class="number-red rank-number">03</span>
+                            <img src="./img,icon/comic/member1.jpg" alt="soái" class="member-img">
+                            <div class="member">
+                                <div class="member-name">Kê Tử - Mộng Tiên Giới</div>
+                                <div class="member-level">
+                                    Cấp 5
+                                   <span class="progress-color"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="member-rank__item">
+                            <span class="rank-number">04</span>
+                            <img src="./img,icon/comic/member1.jpg" alt="soái" class="member-img">
+                            <div class="member">
+                                <div class="member-name">Kê Tử - Mộng Tiên Giới</div>
+                                <div class="member-level">
+                                    Cấp 5
+                                   <span class="progress-color"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="member-rank__item">
+                            <span class="rank-number">05</span>
+                            <img src="./img,icon/comic/member1.jpg" alt="soái" class="member-img">
+                            <div class="member">
+                                <div class="member-name">Kê Tử - Mộng Tiên Giới</div>
+                                <div class="member-level">
+                                    Cấp 5
+                                   <span class="progress-color"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="member-rank__item">
+                            <span class="rank-number">06</span>
+                            <img src="./img,icon/comic/member1.jpg" alt="soái" class="member-img">
+                            <div class="member">
+                                <div class="member-name">Kê Tử - Mộng Tiên Giới</div>
+                                <div class="member-level">
+                                    Cấp 5
+                                   <span class="progress-color"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="border-box">
+                        <div class="border-box__name">Bình Luận Mới</div>
+                    </div>
+                </div>               
+            </div>
+        </div>       
+        <div class="footer">
+            <div class="footer-content grid wide">
+                <div class="contact">
+                    <a href="#" class="logo">
+                        <img src="./img,icon/logo-nettruyen.png" alt="Nettruyen" class="logoimg">
+                    </a>
+                    <div class="contact__fb">
+                        <div class="contact-fb__box">
+                            <div class="contact__fb-img">
+                                <a href=""><img src="./img,icon/comic/contact-fb.jpg" alt="Facebook"></a>
+                            </div>
+                            <div class="contact__fb-content">
+                                <a href="#" class="fb-name">NetTruyen.com - Truyện Tranh Online </a>
+                                <div class="fb-like">
+                                    <span class="page-like">
+                                        <i class="icon-fb fa-brands fa-facebook-square"></i>
+                                        Like Page
+                                    </span>
+                                    165K likes
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#" class="contact-copyright">Liên hệ bản quyền</a>
+                    <p class="copyright-name">Copyright @ 2022 NetTruyện</p>
+                </div>
+                <div class="keywords">
+                    <p>Từ khóa</p>
+                    <ul class="keyword-list">
+                        <li class="keyword-item">
+                            <a href="#">Truyện tranh</a>
+                        </li>
+                        <li class="keyword-item">
+                            <a href="#">Truyện tranh online</a>
+                        </li>
+                        <li class="keyword-item">
+                            <a href="#">Đọc truyện tranh</a>
+                        </li>
+                        <li class="keyword-item">
+                            <a href="#">Truyện tranh hot</a>
+                        </li>
+                        <li class="keyword-item">
+                            <a href="#">Truyện tranh hay</a>
+                        </li>
+                        <li class="keyword-item">
+                            <a href="#">Truyện ngôn tình</a>
+                        </li>
+                        <li class="keyword-item">
+                            <a href="#">truyenqq</a>
+                        </li>
+                        <li class="keyword-item">
+                            <a href="#">mi2manga</a>
+                        </li>
+                        <li class="keyword-item">
+                            <a href="#">doctruyen3q</a>
+                        </li>
+                        <li class="keyword-item">
+                            <a href="#">cmanga</a>
+                        </li>
+                        <li class="keyword-item">
+                            <a href="#">vlogtruyen</a>
+                        </li>
+                        <li class="keyword-item">
+                            <a href="#">blogtruyen</a>
+                        </li>
+                        <li class="keyword-item">
+                            <a href="#">saytruyen</a>
+                        </li>
+                        <li class="keyword-item">
+                            <a href="#">dichtruyen</a>
+                        </li>
+                        <li class="keyword-item">
+                            <a href="#">truyentranhaudio</a>
+                        </li>
+                        <li class="keyword-item">
+                            <a href="#">hamtruyen</a>
+                        </li>
+                        <li class="keyword-item">
+                            <a href="#">truyensieuhay</a>
+                        </li>
+                        <li class="keyword-item">
+                            <a href="#">vcomic</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
