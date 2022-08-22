@@ -1,0 +1,25 @@
+@media (min-width: 740px) and (max-width: 1023px){
+    .box-left{
+        padding-top: 30px;
+    }
+    .box-right{
+        padding-top: 40px;
+    }
+    .song-body{
+        width: 85%;
+    }
+    .nav{
+        display: block;
+    }
+}
+@media(max-width: 739px){
+    .box-left{
+        padding-top: 30px;
+    }
+    .box-right{
+        padding-top: 40px;
+    }
+    .nav{
+        display: block;
+    }
+}

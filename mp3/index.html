@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./reponsive.css">
+    <link rel="stylesheet" href="./fontawesome/css/all.css">
+    <title>cana_mp3</title>
+</head>
+<body>
+    <nav class="nav">
+        <i class="fa-solid fa-bars bar"></i>
+    </nav>
+    <div class="box-left">
+        <div class="container-header">
+            <h4 class="introduce">nhấn sao chép địa chỉ hình ảnh của một ảnh trên mạng dáng vào ô add link</h4>
+            <div class="form">
+                <label for="inputImg">Add Link</label>
+                <input type="text" id="inputImg" class="input" placeholder="URL">
+            </div>
+            <div class="form">
+                <label for="inputText">Text</label>
+                <input type="text" id="inputText" class="input" placeholder="Note">
+            </div>
+            <button type="button" class="button">OK</button>
+        </div>
+        <div class="container-img">
+            <div class="box-img">
+            </div>
+        </div>
+    </div>
+
+    <div class="box-music">
+        <div class="main">
+            <div class="head">
+                <h4>Now playing</h4>
+                <h2 class="headName">Con Sông Quê Mùa</h2>
+            </div>
+
+            <div class="cd">
+                <div class="cd-img" style = "background-image: url()"></div>
+            </div>
+
+            <div class="control">
+                <div class="btn btnRepeat">
+                    <i class="fa-solid fa-repeat"></i>
+                </div>
+                <div class="btn btnPrev">
+                    <i class="fa-solid fa-backward-step"></i>
+                </div>
+                <div class="btn btnPlay">
+                    <i class="fa-solid fa-play iconPause"></i>
+                    <i class="fa-solid fa-pause iconPlay no"></i>
+                </div>
+                <div class="btn btnNext">
+                    <i class="fa-solid fa-forward-step"></i>
+                </div>
+                <div class="btn btnRandom">
+                    <i class="fa-solid fa-shuffle"></i>
+                </div>
+            </div>
+            <div class="progress-time">
+                <span class="duration-time">0.00</span>
+                <input type="range" class="progress" value = '0' min="0" max="100">
+                <span class="current-time">0.00</span>
+            </div>
+            <audio src="" class="audio"></audio>
+        </div>
+        <div class="play-list">
+            <div class="box-list">
+            </div>
+        </div>
+    </div>  
+
+                                        <!-- box right -->
+                                        
+        <div class="box-right">
+        <div class="random-color">
+            <i class="fa-solid fa-lightbulb light"></i>
+            <p class="date-time">0:00</p>
+        </div>
+        <section class="box-text">
+            <h4 class="random-text">Click Me!</h4>
+            <div class="load no"></div>
+        </section>
+        <section class="box-video">
+            <iframe width="100%" height="380px" src="https://www.youtube.com/embed/ZAOekttm1T8?list=RDGFyzuow3myU" title="Sao Chưa Thấy Hồi Âm | Lệ Quyên | Lyrics Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
+        <form class="path-video">
+            <button type="button" class="button-video">ENTER</button>
+            <input type="text" class="url-video" placeholder="mã nhúng youtube... ">
+        </form>
+    </div>
+    
+    <script src="./main.js"></script>
+</body>
+</html>
